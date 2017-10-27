@@ -1,0 +1,35 @@
+---
+# Strings that are used in Android only
+android:
+  Checkout:
+    OrderOverview:
+      Total:
+        en: 'Total price: %1{{s}}'  # This placeholder will expand to %1$@ on iOS and %1$s on Android
+        nl: 'Totaal: %1{{s}}'
+# Strings that are used in iOS only
+ios:
+  Settings:
+    PushPermissionsRequest:
+      Title:
+        en: 'Stay up to date'
+        nl: 'Blijf op de hoogte'
+      Subtitle:
+        en: 'Stay up to date'
+# Strings that are shared between Android and iOS
+shared:
+  Delivery:
+    Widget:
+      Title:
+        en: "Help"
+        nl: "Help"
+      SubTitle:
+        plural:
+          zero:
+            en: '%1{{d}} Pending order'
+            nl: '%1{{d}} Lopende bestelling'
+          one:
+            en: '%1{{d}} Pending order'
+            nl: '%1{{d}} Lopende bestelling'
+          other:
+            en: '%1{{d}} Pending Orders'
+            nl: '%1{{d}} Lopende bestellingen'
